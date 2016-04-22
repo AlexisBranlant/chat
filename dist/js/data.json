@@ -1,0 +1,46 @@
+{
+	"msg":[
+		{
+			"name" : "Alex",
+			"date" : "2016-04-21T09:25:23.721Z",
+			"msg":"hello",
+          "userID":1
+		},
+		{
+			"name" : "Pierre",
+			"date" : "2016-04-21T09:25:45.721Z",
+			"msg":"hello",
+            "userID":2
+		},
+		{
+			"name" : "Paul",
+			"date" : "2016-04-21T09:27:25.721Z",
+			"msg":"hello",
+            "userID":3
+		},
+		{
+			"name" : "Thomas",
+			"date" : "2016-04-21T09:30:28.721Z",
+			"msg":"hello",
+            "userID":4
+		}
+	],
+  "users":[
+    {
+      "name":"Toto",
+      "id":1
+    },
+    {
+      "name":"tata",
+      "id":2
+    },
+    {
+      "name":"Paul",
+      "id":3
+    },
+    {
+      "name":"Thomas",
+      "id":4
+    }
+  ]
+}

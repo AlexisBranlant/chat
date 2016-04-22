@@ -1,0 +1,13 @@
+{% extends "../../layouts/main.twig" %}
+
+{% set title = "Chat accueil" %}
+
+{% from "../../components/connection/connection.twig" import Connection as Connection %}
+{% from "../../components/msg/msg.twig" import Msg as Msg %}
+{% from "../../components/users/users.twig" import Users as Users %}
+
+{% block content %}
+  {{ Connection() }}
+  {{ Msg() }}
+  {{ Users(users) }}
+{% endblock %}

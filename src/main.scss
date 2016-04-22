@@ -1,0 +1,23 @@
+$nul : 0;
+
+*,*:after,*:before{
+	box-sizing:border-box;
+	margin:$nul;
+	padding:$nul;
+}
+ul{
+		list-style-type:none;
+}
+body{
+	font-size:16px;
+}
+
+@import "components/header/header";
+
+
+
+
+
+
+
+

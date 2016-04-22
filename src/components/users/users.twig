@@ -1,0 +1,5 @@
+{% macro Users(users) %}
+  <ul id="users">
+    {% include "user/user.twig" with {'users': users } %}
+  </ul>
+{% endmacro %}
